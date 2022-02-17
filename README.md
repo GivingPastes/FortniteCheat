@@ -1,4 +1,3 @@
-# Fortnite-cheat-source-internal-self-leak
 Here is my fortnite internal cheat source. I will *maybe* update this every update.
 
 # Features
@@ -26,9 +25,3 @@ Here is my fortnite internal cheat source. I will *maybe* update this every upda
 | 10/2/2022   | Updated       (Hopefully          |
 | 16/2/2022   | Updated  to 19.30          |
 
-
-
-
-# Credits 
-
-Me, android, some guys I dont remember who from where I pasted some functions, and https://github.com/homeless1337 (Source I used). 
