@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Utils\crt.h">
+      <Filter>Fortnite\Game\CRT</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\lw_http.hpp">
+      <Filter>Fortnite\Game\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="API.h">
+      <Filter>Fortnite\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\xor.h">
+      <Filter>Fortnite\Game\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\spoof.h">
+      <Filter>Fortnite\Game\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Fortnite\Game\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Fortnite\Game\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="syscalls.h">
+      <Filter>Fortnite\Game\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Fortnite\Game\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Fortnite\Game\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuFramework.h">
+      <Filter>Fortnite\Game\Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Fortnite">
+      <UniqueIdentifier>{4daf6ff1-e4d9-4518-b651-c97c0196eaab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fortnite\Game">
+      <UniqueIdentifier>{437b5e19-f963-4573-8b52-43005fba6885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fortnite\Game\Assembly">
+      <UniqueIdentifier>{c598afd2-2acb-42c7-b5ab-dcbc969f5407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fortnite\Game\CRT">
+      <UniqueIdentifier>{81040ca2-a3dc-43ba-9a50-1674e6e8ffa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fortnite\Game\Misc">
+      <UniqueIdentifier>{19a2fb8e-9635-4fff-aa54-142ffdf84367}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Fortnite</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\crt.cpp">
+      <Filter>Fortnite\Game\CRT</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\lw_http.cpp">
+      <Filter>Fortnite\Game\Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="NtUserGetAsyncKeyState.asm">
+      <Filter>Fortnite\Game\Assembly</Filter>
+    </MASM>
+    <MASM Include="RetAddressSpoofer.asm">
+      <Filter>Fortnite\Game\Assembly</Filter>
+    </MASM>
+    <MASM Include="NtUserSendInput.asm">
+      <Filter>Fortnite\Game\Assembly</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

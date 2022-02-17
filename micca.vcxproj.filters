@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="micca.cpp" />
+    <ClCompile Include="Utils\crt.cpp">
+      <Filter>Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\lw_http.cpp">
+      <Filter>https</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MenuFramework.h" />
+    <ClInclude Include="Utils\xor.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\spoof.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="syscalls.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\crt.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="API.h">
+      <Filter>https</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>https</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>https</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\lw_http.hpp">
+      <Filter>https</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="NtUserGetAsyncKeyState.asm">
+      <Filter>asm</Filter>
+    </MASM>
+    <MASM Include="NtUserSendInput.asm">
+      <Filter>asm</Filter>
+    </MASM>
+    <MASM Include="RetAddressSpoofer.asm">
+      <Filter>asm</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Protection">
+      <UniqueIdentifier>{8937b477-b8aa-413d-b8c9-576584801a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asm">
+      <UniqueIdentifier>{29a884db-b332-4e56-9770-dd78ddfeaa54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs">
+      <UniqueIdentifier>{6e1806e2-5811-4b27-9853-c76ff89a7667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="https">
+      <UniqueIdentifier>{44eb8fd0-9466-43c3-8f85-606de65f05ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
