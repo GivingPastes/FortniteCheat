@@ -23,5 +23,5 @@ Here is my fortnite internal cheat source. I will *maybe* update this every upda
 | 30/1/2022   | Changed to Post render, and fixed crashing                 |
 | 6/2/2022   | Updated To Newest Patch                |
 | 10/2/2022   | Updated       (Hopefully          |
-| 16/2/2022   | Updated  to 19.30          |
+| 16/2/2022   | Updated  to 19.40          |
 
